@@ -1,11 +1,7 @@
-xp = require("xp.xp")
+ease = require("ease.ease")
 
 function init(self)
-	xp.verbose = true
-	xp.init()
-	msg.post(".", "acquire_input_focus")
-	msg.post("@render:", "clear_color", { color = vmath.vector4(140/255, 127/255, 112/255, 1) } )
-	
+
 end
 
 function final(self)
